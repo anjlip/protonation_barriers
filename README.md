@@ -5,7 +5,7 @@ Data includes structures along the reaction pathway computed via the MLNEB algor
 
 The data is organized as follows:
 - Adsorbate (C, N, O)
-  - Metal (Ru, Ir, Pd, Rh, Pt)
+  - Metal (Ru, Ir, Pd, Rh, Pt, Cu)
     - Water structure (H-up, H-down)
       - path.traj: Atomic simulation environment (ASE) trajectory file for each reaction path
       - true_IS.POSCAR: structure of true initial state used for barrier computation - water structure (without hydronium) and unprotonated adsorbate on the surface
